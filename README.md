@@ -12,6 +12,7 @@ npx skills@latest add GitbookIO/docs-skills
 
 - **[ai-readiness](./skills/ai-readiness/SKILL.md)** — Check and fix docs pages so AI assistants and retrieval systems can chunk, retrieve, and quote them.
 - **[humanizer](./skills/humanizer/SKILL.md)** — Review or rewrite AI-sounding docs, release notes, and READMEs so they read like a skilled technical writer wrote them.
+- **[release-notes-writer](./skills/release-notes-writer/SKILL.md)** — Draft user-facing release notes and changelogs from PRs, commits, tickets, and diffs.
 - **[seo-aeo-documentation](./skills/seo-aeo-documentation/SKILL.md)** — Create, edit, or review docs for content-level SEO and AEO without sacrificing readability or accuracy.
 
 ## Coming soon
@@ -25,7 +26,6 @@ npx skills@latest add GitbookIO/docs-skills
 - **[docs-freshness-audit](./skills/docs-freshness-audit/SKILL.md)** — Find pages that went stale after product changes and releases.
 - **[accessibility-checker](./skills/accessibility-checker/SKILL.md)** — Check alt text, heading order, link text, and other content accessibility issues.
 - **[information-architecture-review](./skills/information-architecture-review/SKILL.md)** — Review navigation, structure, duplication, and gaps.
-- **[release-notes-writer](./skills/release-notes-writer/SKILL.md)** — Draft user-facing release notes from PRs, commits, and tickets.
 
 ## License
 
