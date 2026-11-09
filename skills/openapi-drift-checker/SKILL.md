@@ -18,3 +18,7 @@ Scaffold only — not ready for use.
 - Find endpoint, parameter, and field mentions in Markdown docs and code samples
 - Report drift by severity: removed or renamed items, wrong types or values, undocumented new items
 - Propose doc edits and flag cases where the spec itself may be wrong
+
+## Out of scope
+
+Behavioral drift, where names and values still match the spec but the API behaves differently from what the docs describe. Catching it requires running the API, which a skill cannot do from the files alone.

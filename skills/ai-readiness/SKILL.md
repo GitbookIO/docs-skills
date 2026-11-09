@@ -13,11 +13,11 @@ Run each check against every page you are given. Report a pass or a fail with th
 
 | ID | Check | Why it matters |
 |----|-------|----------------|
-| A-1 | Frontmatter has a description of 50 to 160 characters that states what the page covers. | Retrieval systems index the description first. "Mock page for..." or an empty description fails. |
+| A-1 | Frontmatter has a description of 50 to 160 characters that states what the page covers. | Search results and some retrieval systems use the description to summarize the page. "Mock page for..." or an empty description fails. |
 | A-2 | The first paragraph after the title answers "what is this and who is it for" in two sentences or fewer. | The opening chunk is the one most often retrieved. |
 | A-3 | Every heading is specific enough to be understood out of context. "Overview" or "Details" fails; "Availability profile settings" passes. | Headings become chunk titles. |
 | A-4 | No heading is immediately followed by another heading. | Empty sections produce empty chunks. |
-| A-5 | Each section is between roughly 40 and 300 words. | Shorter sections lose context; longer ones split mid-thought. |
+| A-5 | Each section is between roughly 40 and 300 words. | Very short sections lose context, and very long ones are more likely to be split mid-thought. Treat the range as a rough target. |
 | A-6 | Tables have a header row and no empty cells; a cell that would be empty says "None". | Agents read tables row by row and drop rows with gaps. |
 | A-7 | Technical values (field names, paths, limits, defaults) appear in prose or tables as literal text, not only in images. | Images are invisible to most retrieval. |
 | A-8 | Pronouns at the start of a paragraph ("It", "This", "They") are replaced with the noun they refer to. | A chunk that starts with "This" has no subject once cut from its neighbor. |

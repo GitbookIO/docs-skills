@@ -26,6 +26,7 @@ npx skills@latest add GitbookIO/docs-skills
 - **[docs-freshness-audit](./skills/docs-freshness-audit/SKILL.md)** — Find pages that went stale after product changes and releases.
 - **[accessibility-checker](./skills/accessibility-checker/SKILL.md)** — Check alt text, heading order, link text, and other content accessibility issues.
 - **[information-architecture-review](./skills/information-architecture-review/SKILL.md)** — Review navigation, structure, duplication, and gaps.
+- **[prerequisite-gap-checker](./skills/prerequisite-gap-checker/SKILL.md)** — Find steps, permissions, and setup a task page assumes but never states.
 
 ## License
 
