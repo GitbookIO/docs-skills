@@ -15,6 +15,7 @@ Scaffold only — not ready for use.
 
 - Extract candidate terms, product names, and UI labels from the docs
 - Cluster synonyms and spelling or capitalization variants for the same concept
+- Count each variant's occurrences with grep or a similar tool instead of estimating
 - Draft a glossary with a preferred term, accepted variants, and a definition
 - Flag each page that uses a non-preferred variant, with a suggested replacement
 - Respect an existing glossary or style guide when one is supplied

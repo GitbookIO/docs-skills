@@ -18,3 +18,4 @@ Scaffold only — not ready for use.
 - Find orphaned pages and pages that are hard to reach
 - Identify missing content for key user tasks
 - Propose a target structure with a migration and redirect plan
+- Build redirects from file renames and moves in git history, and ask where deleted or merged pages should point
